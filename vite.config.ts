@@ -6,7 +6,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'http://weather_app.jrmessias.com.br',
+  base: '/weather_app/',
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
