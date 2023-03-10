@@ -71,7 +71,7 @@
 </template>
 <script setup type="ts">
 import {ref} from "vue"
-import {useAppStore} from "@/stores/AppStore";
+import {useAppStore} from "../stores/AppStore";
 
 const appStore = useAppStore();
 

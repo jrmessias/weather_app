@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import {RouterView} from 'vue-router'
 import NavBarComponent from "@/components/NavBarComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
@@ -12,12 +12,11 @@ if (appStore.isDark) {
   localStorage.theme = 'dark'
 }
 </script>
-<script lang="ts">
-</script>
+
 <template>
-      <NavBarComponent/>
-      <RouterView/>
-      <FooterComponent/>
+  <NavBarComponent/>
+  <RouterView/>
+  <FooterComponent/>
 </template>
 
 <style scoped>
