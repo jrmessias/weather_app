@@ -9,6 +9,14 @@ Projeto de aplicativo para estudo com uso de API de previsão do tempo.
 - [OpenWeather](https://openweathermap.org/)
 - [Weather Icons](https://erikflowers.github.io/weather-icons/)
 
+[**Front-end:**](https://weather_app.jrmessias.com.br)
+- [Vite 4](https://vitejs.dev/)
+- [Vue 3](https://vuejs.org/)
+- [Vue Router 4](https://router.vuejs.org/)
+- [Tailwind CSS 3](https://tailwindcss.com/)
+- [Pinia](https://pinia.vuejs.org/)
+_[(* branch gh-pages)](https://github.com/jrmessias/weather_app/tree/gh-pages)_
+
 ## Rodando localmente
 
 Clone o projeto
@@ -31,14 +39,17 @@ Instale as dependências
 
 Debug no smartphone
 
+_Copie o arquivo `.env.example` para `.env`._
+_Edite o arquivo `.env`, inserindo sua chave de API do OpenWeather (v2.5)._
 _Conecte o smartphone ao computador com cabo usb._
+_Execute o comando abaixo:_
 ```bash
   flutter run --release
 ```
 
 ## Relacionados
 
-Baseado em de [Ananthu P Kanive](https://github.com/LonelyCpp/flutter_weather)
+Baseado em [Ananthu P Kanive](https://github.com/LonelyCpp/flutter_weather)
 
 ## Recursos
 
